@@ -1,5 +1,5 @@
-Package: templater
-Title: Template for R projects
+Package: niesdata
+Title: Dataframe for NIES projects
 Authors@R: c(
     person(given = "nies futbol",
            family = "nies futbol",
