@@ -1,0 +1,67 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "premier",
+      "path": "premier.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "match_id",
+            "type": "number",
+            "long_name": "Match Id",
+            "nombre_largo": "Id del partido"
+          },
+          {
+            "name": "goal",
+            "type": "number",
+            "long_name": "Goal",
+            "nombre_largo": "Gol"
+          },
+          {
+            "name": "team_id",
+            "type": "number",
+            "long_name": "Team Id",
+            "nombre_largo": "Id del equipo"
+          },
+          {
+            "name": "total_shots",
+            "type": "number"
+          },
+          {
+            "name": "shots_on_goal",
+            "type": "number"
+          },
+          {
+            "name": "shots_insidebox",
+            "type": "number"
+          },
+          {
+            "name": "blocked_shots",
+            "type": "number"
+          },
+          {
+            "name": "scored_penalties",
+            "type": "number"
+          },
+          {
+            "name": "total_penalties",
+            "type": "number"
+          },
+          {
+            "name": "home",
+            "type": "boolean"
+          },
+          {
+            "name": "key_passes",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
