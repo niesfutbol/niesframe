@@ -3,6 +3,9 @@ src="https://github.com/nepito/world_cup_semis/blob/develop/img/logo.jpeg" align
 /></a>
 
 # Data frame for NIES projects
+![licencia](https://img.shields.io/github/license/niesfutbol/niesframe)
+![languages](https://img.shields.io/github/languages/top/niesfutbol/niesframe)
+![commits](https://img.shields.io/github/commit-activity/y/niesfutbol/niesframe)
 
 ## Step to use
 
